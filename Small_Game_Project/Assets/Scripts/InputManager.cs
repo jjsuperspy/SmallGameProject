@@ -14,12 +14,11 @@ public class InputManager : MonoBehaviour
     public KeyCode actionKeyThreeKey = KeyCode.L;
     public KeyCode actionKeyFourKey = KeyCode.Semicolon;
     //
-    //public KeyCode cameraRotHorizontal        Mouse camera input
-    //public KeyCode cameraRotVertical          Mouse camera input
+    public KeyCode cameraRotLeftKey = KeyCode.Q;
+    public KeyCode cameraRotRightKey = KeyCode.E;
     //
     public KeyCode menuOneKye = KeyCode.Tab;
     public KeyCode menuTwoKye = KeyCode.Escape;
-    //
     //
     public bool moveUp = false;
     public bool moveDown = false;
@@ -31,8 +30,8 @@ public class InputManager : MonoBehaviour
     public bool actionKeyThreeDown = false;
     public bool actionKeyFourDown = false;
     //
-    //public bool cameraRotHorizontal
-    //public bool cameraRotVertical
+    public bool cameraRotLeftDown = false;
+    public bool cameraRotRightDown = false;
     //
     public bool menuOneDown = false;
     public bool menuTwoDown = false;
@@ -63,8 +62,8 @@ public class InputManager : MonoBehaviour
         actionKeyThreeDown = Input.GetKeyDown(actionKeyThreeKey);
         actionKeyFourDown = Input.GetKeyDown(actionKeyFourKey);
         //
-        //cameraRotHorizontal
-        //cameraRotVertical
+        cameraRotLeftDown = Input.GetKey(cameraRotLeftKey);
+        cameraRotRightDown = Input.GetKey(cameraRotRightKey);
         //
         menuOneDown = Input.GetKeyDown(menuOneKye);
         menuTwoDown = Input.GetKeyDown(menuTwoKye);
