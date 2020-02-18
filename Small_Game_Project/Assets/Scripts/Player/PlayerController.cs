@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     public PlayerState currentPlayerState = PlayerState.in_Character;    
     public float defaultCharacterMoveSpeed = 10f;
     public float cameraRotationValue = 1f;
+    public float jumpAmount = 10f;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +24,7 @@ public class PlayerController : MonoBehaviour
     {
         ManagePlayerControl();
     }
+
 
     void ManagePlayerControl()
     {
@@ -82,6 +84,11 @@ public class PlayerController : MonoBehaviour
         if (inputManager.moveRight)
         {
             inputDir += orientationPin.transform.right * defaultCharacterMoveSpeed;
+        }
+        if (inputManager.jumpDown)
+        {
+        print("space key was pressed");
+            playerRbody.AddForce(new Vector3(0f, jumpAmount, 0f), ForceMode.Impulse);
         }
 
         playerRbody.AddForce(inputDir * Time.smoothDeltaTime, ForceMode.VelocityChange);

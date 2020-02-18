@@ -9,6 +9,8 @@ public class InputManager : MonoBehaviour
     public KeyCode moveLeftKey = KeyCode.A;
     public KeyCode moveRightKey = KeyCode.D;
     //
+    public KeyCode jumpKey = KeyCode.Space;
+    //
     public KeyCode actionKeyOneKey = KeyCode.J;
     public KeyCode actionKeyTwoKey = KeyCode.K;
     public KeyCode actionKeyThreeKey = KeyCode.L;
@@ -24,6 +26,8 @@ public class InputManager : MonoBehaviour
     public bool moveDown = false;
     public bool moveLeft = false;
     public bool moveRight = false;
+    //
+    public bool jumpDown = false;
     //
     public bool actionKeyOneDown = false;
     public bool actionKeyTwoDown = false;
@@ -56,6 +60,8 @@ public class InputManager : MonoBehaviour
         moveDown = Input.GetKey(moveDownKey);
         moveLeft = Input.GetKey(moveLeftKey);
         moveRight = Input.GetKey(moveRightKey);
+        //
+        jumpDown = Input.GetKeyDown(jumpKey);
         //
         actionKeyOneDown = Input.GetKeyDown(actionKeyOneKey);
         actionKeyTwoDown = Input.GetKeyDown(actionKeyTwoKey);
