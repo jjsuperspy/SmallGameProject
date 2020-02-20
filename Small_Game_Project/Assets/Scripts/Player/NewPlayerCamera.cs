@@ -8,8 +8,7 @@ public class NewPlayerCamera : MonoBehaviour
     public float cameraSpeed = 100f;
     public float xRotation = 0f;
     public Transform player;
-
-
+    
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
