@@ -1,22 +1,43 @@
 fileFormatVersion: 2
-guid: c5c15db7266d5034bb831da803e4449f
+guid: 2ca75bc1eadfd64469a41f7591dd793a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2944110088930436750
-    second: Character_Test_Idle_0
+      213: -9093708898720563680
+    second: Sword_Anim_0
   - first:
-      213: 726255989275876073
-    second: Character_Test_Idle_1
+      213: -4261559174595755374
+    second: Sword_Anim_1
   - first:
-      213: 993943926235886839
-    second: Character_Test_Idle_2
+      213: -1148993082934366944
+    second: Sword_Anim_2
   - first:
-      213: -5045890099285842575
-    second: Character_Test_Idle_3
+      213: -8051486451899688099
+    second: Sword_Anim_3
   - first:
-      213: -2641107397639549930
-    second: Character_Test_Idle_4
+      213: 3213562271132874351
+    second: Sword_Anim_4
+  - first:
+      213: -8568156909836622427
+    second: Sword_Anim_5
+  - first:
+      213: -1175901782418156169
+    second: Sword_Anim_0
+  - first:
+      213: 3157994156536376533
+    second: Sword_Anim_1
+  - first:
+      213: -554397626099974612
+    second: Sword_Anim_2
+  - first:
+      213: 5544322193688184055
+    second: Sword_Anim_3
+  - first:
+      213: 2998870653374595570
+    second: Sword_Anim_4
+  - first:
+      213: -3685182729024461126
+    second: Sword_Anim_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -51,7 +72,7 @@ TextureImporter:
     mipBias: -100
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -101,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Character_Test_Idle_0
+      name: Sword_Anim_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 26
-        height: 26
+        width: 31
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,20 +136,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e86a75ef6849bd820800000000000000
-      internalID: 2944110088930436750
+      spriteID: 77597302f8b5eafe0800000000000000
+      internalID: -1175901782418156169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_Test_Idle_1
+      name: Sword_Anim_1
       rect:
         serializedVersion: 2
-        x: 26
+        x: 31
         y: 0
-        width: 26
-        height: 26
+        width: 31
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,20 +157,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ead9c079fd241a00800000000000000
-      internalID: 726255989275876073
+      spriteID: 5dc2c1f14f273db20800000000000000
+      internalID: 3157994156536376533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_Test_Idle_2
+      name: Sword_Anim_2
       rect:
         serializedVersion: 2
-        x: 52
+        x: 62
         y: 0
-        width: 26
-        height: 26
+        width: 31
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,20 +178,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f472f91cb23bcd00800000000000000
-      internalID: 993943926235886839
+      spriteID: c2ebdffdb426e48f0800000000000000
+      internalID: -554397626099974612
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_Test_Idle_3
+      name: Sword_Anim_3
       rect:
         serializedVersion: 2
-        x: 78
+        x: 93
         y: 0
-        width: 26
-        height: 26
+        width: 31
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,20 +199,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 175286060b569f9b0800000000000000
-      internalID: -5045890099285842575
+      spriteID: 7f4491bf8a361fc40800000000000000
+      internalID: 5544322193688184055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_Test_Idle_4
+      name: Sword_Anim_4
       rect:
         serializedVersion: 2
-        x: 104
+        x: 124
         y: 0
-        width: 26
-        height: 26
+        width: 31
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,8 +220,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61cc906a0d6e85bd0800000000000000
-      internalID: -2641107397639549930
+      spriteID: 2f18cb578f02e9920800000000000000
+      internalID: 2998870653374595570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword_Anim_5
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 0
+        width: 31
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6a71835d99bdcc0800000000000000
+      internalID: -3685182729024461126
       vertices: []
       indices: 
       edges: []
@@ -208,7 +250,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 82532fbc2094c9f4db6e83c6d05cdf4a
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
