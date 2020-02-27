@@ -5,11 +5,12 @@ using UnityEngine;
 public class NewPlayerMovement : MonoBehaviour
 {
     public CharacterController controller;
+    public Animator animator;
 
     public float speed = 6f;
     public float gravity = -9.81f;
     public float jumpHeight = 3f;
-    
+
     public Transform groundcheck;
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
@@ -33,6 +34,8 @@ public class NewPlayerMovement : MonoBehaviour
         Vector3 move = transform.right * x + transform.forward * z;
 
         controller.Move(move * speed * Time.deltaTime);
+
+        animator.SetFloat("Speed", speed);
 
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
