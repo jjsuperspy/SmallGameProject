@@ -1116,13 +1116,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 951496821}
   m_CullTransparentMesh: 0
---- !u!20 &963194227 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 1277227269880738723, guid: defa412e301237d4f847afbb39bf1f0d,
-    type: 3}
-  m_PrefabInstance: {fileID: 1277227270301802192}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1160133515
+--- !u!114 &953513932
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1223,6 +1217,12 @@ MonoBehaviour:
   rectLightShadow:
     m_OverrideState: 0
     m_Value: 0
+--- !u!20 &963194227 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 1277227269880738723, guid: defa412e301237d4f847afbb39bf1f0d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1277227270301802192}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1185220719 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6403222857978067670, guid: 85a3a906bb2846743929bd587bc2c665,
@@ -1576,7 +1576,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1647,7 +1647,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Profile: {fileID: 11400000, guid: d88cee96cde537e4eb3da10ae9ee6fb4, type: 2}
   m_StaticLightingSkyUniqueID: 1
-  m_SkySettings: {fileID: 1160133515}
+  m_SkySettings: {fileID: 953513932}
   m_SkySettingsFromProfile: {fileID: 7488742677745068149, guid: d88cee96cde537e4eb3da10ae9ee6fb4,
     type: 2}
 --- !u!4 &1854311160
@@ -1796,7 +1796,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2097323791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1925,7 +1925,7 @@ PrefabInstance:
     - target: {fileID: 1277227269557068158, guid: defa412e301237d4f847afbb39bf1f0d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.12
+      value: 0.88
       objectReference: {fileID: 0}
     - target: {fileID: 1277227269557068158, guid: defa412e301237d4f847afbb39bf1f0d,
         type: 3}
