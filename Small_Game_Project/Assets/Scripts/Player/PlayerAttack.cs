@@ -40,7 +40,7 @@ public class PlayerAttack : MonoBehaviour
     }
     void WeaponToggle()
     {
-        if (Input.GetAxis("Weapon Toggle") != 0)
+        if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             ToggleWeapon = !ToggleWeapon;
             animator.SetBool("Toggle_Weapon", ToggleWeapon);
@@ -49,17 +49,22 @@ public class PlayerAttack : MonoBehaviour
 
     void Attack()
     {
-
-        Debug.Log("I Have Attacked!");
-        // Set attack animation
-        // Detect enemies in range of attack
-        Collider[] hitEnemies = Physics.OverlapSphere(attackPoint.position, attackRange, enemyLayers);
-
-        // Damage them
-        foreach(Collider enemy in hitEnemies)
+        if(ToggleWeapon)
         {
-            enemy.GetComponent<Enemy>().TakeDamage(attackDamage);
+            Debug.Log("I Have Attacked!");
+            // Set attack animation
+
+            animator.SetTrigger("isAttacking");
+            // Detect enemies in range of attack
+            Collider[] hitEnemies = Physics.OverlapSphere(attackPoint.position, attackRange, enemyLayers);
+
+            // Damage them
+            foreach (Collider enemy in hitEnemies)
+            {
+                enemy.GetComponent<Enemy>().TakeDamage(attackDamage);
+            }
         }
+        
     }
 
     void OnDrawGizmosSelected()

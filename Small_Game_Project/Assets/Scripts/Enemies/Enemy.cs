@@ -5,13 +5,10 @@ using UnityEngine.AI;
 
 public class Enemy : MonoBehaviour
 {
-    public CapsuleCollider collider1;
-    public CapsuleCollider collider2;
-
-    public Component move;
 
     public int maxHealth = 100;
     int currentHealth;
+
 
     // Start is called before the first frame update
     void Start()
@@ -38,11 +35,10 @@ public class Enemy : MonoBehaviour
 
         // Disable enemy
 
-        collider1.enabled = false;
-        collider2.enabled = false;
-        move.enabled = false;
-        GetComponent<NavMeshAgent>().enabled = false;
+        GetComponent<CapsuleCollider>().enabled = false;
+        GetComponent<NavMeshAgent>().isStopped = true;
         this.enabled = false;
 
+        Destroy(this.gameObject, 2f);
     }
 }
