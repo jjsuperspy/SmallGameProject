@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewPlayerCamera : MonoBehaviour
+public class PlayerCamera : MonoBehaviour
 {
 
     public float cameraSpeed = 100f;

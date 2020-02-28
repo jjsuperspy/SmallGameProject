@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewPlayerMovement : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
     public CharacterController controller;
     public Animator animator;
@@ -17,20 +17,13 @@ public class NewPlayerMovement : MonoBehaviour
 
     Vector3 velocity;
     bool isGrounded;
-
-    bool ToggleWeapon = false;
-
-    void Start()
-    {
-        ToggleWeapon = false;
-    }
+    
     // Update is called once per frame
     void Update()
     {
         Grounded();
-        PlayerMovement();
+        Movement();
         Jump();
-        WeaponToggle();
     }
 
     void Grounded()
@@ -42,7 +35,7 @@ public class NewPlayerMovement : MonoBehaviour
             velocity.y = -2f;
         }
     }
-    void PlayerMovement()
+    void Movement()
     {
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
@@ -63,14 +56,6 @@ public class NewPlayerMovement : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
 
         controller.Move(velocity * Time.deltaTime);
-    }
-    void WeaponToggle()
-    {
-        if (Input.GetAxis("Weapon Toggle") !=0)
-        {
-            ToggleWeapon = !ToggleWeapon;
-            animator.SetBool("Toggle_Weapon", ToggleWeapon);
-        }
     }
     
 }
