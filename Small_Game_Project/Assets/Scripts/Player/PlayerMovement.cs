@@ -43,8 +43,10 @@ public class PlayerMovement : MonoBehaviour
         Vector3 move = transform.right * x + transform.forward * z;
 
         controller.Move(move * speed * Time.deltaTime);
-
-        animator.SetFloat("Speed", Mathf.Abs(x + z));
+        animator.SetFloat("Horizontal", x);
+        animator.SetFloat("Vertical", z);
+        animator.SetFloat("Speed", move.magnitude);
+        
                 
     }
     void Jump()

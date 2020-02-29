@@ -96,6 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9078962fe3698014e9f553ed9b3f4983, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
   maxHealth: 100
 --- !u!1 &751561501305486206
 GameObject:
@@ -221,7 +222,7 @@ Animator:
   m_GameObject: {fileID: 751561501918340469}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 70a720a609f35f74797da5b579b6bf5c, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
