@@ -1,0 +1,955 @@
+fileFormatVersion: 2
+guid: 5f22ab643d218e64aac5af54d47906f3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8905759705637386408
+    second: Character_Movement_0
+  - first:
+      213: -8744811057671671921
+    second: Character_Movement_1
+  - first:
+      213: -6041243524589766753
+    second: Character_Movement_2
+  - first:
+      213: 8166404624127594126
+    second: Character_Movement_3
+  - first:
+      213: 5837042759542651651
+    second: Character_Movement_4
+  - first:
+      213: 4329316677046672296
+    second: Character_Movement_5
+  - first:
+      213: -2930990389366593939
+    second: Character_Movement_6
+  - first:
+      213: 3916924160053737083
+    second: Character_Movement_7
+  - first:
+      213: -5740148186975386355
+    second: Character_Movement_8
+  - first:
+      213: -6088352057766394584
+    second: Character_Movement_9
+  - first:
+      213: 3968561375068141540
+    second: Character_Movement_10
+  - first:
+      213: -2549712149611636781
+    second: Character_Movement_11
+  - first:
+      213: 5915511281015761661
+    second: Character_Movement_12
+  - first:
+      213: 2953756802330103265
+    second: Character_Movement_13
+  - first:
+      213: 846787179632091167
+    second: Character_Movement_14
+  - first:
+      213: 1116607890776431361
+    second: Character_Movement_15
+  - first:
+      213: -8515421476196318582
+    second: Character_Movement_0
+  - first:
+      213: 4679338933145673187
+    second: Character_Movement_1
+  - first:
+      213: -3577498894379986066
+    second: Character_Movement_2
+  - first:
+      213: 2651324953736387553
+    second: Character_Movement_3
+  - first:
+      213: -6161284284378647403
+    second: Character_Movement_4
+  - first:
+      213: -8018959830225427814
+    second: Character_Movement_5
+  - first:
+      213: 8831140816570024087
+    second: Character_Movement_6
+  - first:
+      213: 900395412640530430
+    second: Character_Movement_7
+  - first:
+      213: 20562862146614947
+    second: Character_Movement_8
+  - first:
+      213: -7373578979235327441
+    second: Character_Movement_9
+  - first:
+      213: -436282342502494445
+    second: Character_Movement_10
+  - first:
+      213: -5201897984481393574
+    second: Character_Movement_11
+  - first:
+      213: 7136643005035255285
+    second: Character_Movement_12
+  - first:
+      213: 763106115908709125
+    second: Character_Movement_13
+  - first:
+      213: -5262603504967657629
+    second: Character_Movement_14
+  - first:
+      213: 8634697712585482661
+    second: Character_Movement_15
+  - first:
+      213: -265650841940117957
+    second: Character_Movement_16
+  - first:
+      213: 7318281447250099640
+    second: Character_Movement_17
+  - first:
+      213: -996506559112390033
+    second: Character_Movement_18
+  - first:
+      213: -188933130087041859
+    second: Character_Movement_19
+  - first:
+      213: 4014309292551714383
+    second: Character_Movement_20
+  - first:
+      213: 806515749597920893
+    second: Character_Movement_21
+  - first:
+      213: -1302825563593504848
+    second: Character_Movement_22
+  - first:
+      213: -1672225073953976808
+    second: Character_Movement_23
+  - first:
+      213: -6745823150474110621
+    second: Character_Movement_16
+  - first:
+      213: 8857557586836000986
+    second: Character_Movement_17
+  - first:
+      213: -2693771260522508607
+    second: Character_Movement_18
+  - first:
+      213: -9182508897039757578
+    second: Character_Movement_19
+  - first:
+      213: 6557932718339422864
+    second: Character_Movement_20
+  - first:
+      213: -4392324139083428914
+    second: Character_Movement_21
+  - first:
+      213: 7857642088715614527
+    second: Character_Movement_22
+  - first:
+      213: 3300565996461501149
+    second: Character_Movement_23
+  - first:
+      213: -3570383642256979418
+    second: Character_Movement_24
+  - first:
+      213: -9193293046516263627
+    second: Character_Movement_25
+  - first:
+      213: -2837370914209803496
+    second: Character_Movement_26
+  - first:
+      213: 8647307232736717992
+    second: Character_Movement_27
+  - first:
+      213: -8454970578488715789
+    second: Character_Movement_24
+  - first:
+      213: -8325364655455457191
+    second: Character_Movement_25
+  - first:
+      213: 5342713432815179379
+    second: Character_Movement_26
+  - first:
+      213: 7968131804578218717
+    second: Character_Movement_27
+  - first:
+      213: 4621940302893427187
+    second: Character_Movement_28
+  - first:
+      213: -792333525804985438
+    second: Character_Movement_29
+  - first:
+      213: 4051114453312329689
+    second: Character_Movement_30
+  - first:
+      213: 1093120290042045270
+    second: Character_Movement_31
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Character_Movement_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 217
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a820696b84523d980800000000000000
+      internalID: -8515421476196318582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Movement_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 217
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed9dcda7f950f040800000000000000
+      internalID: 4679338933145673187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Movement_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 217
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63d020c5bb2a5ec0800000000000000
+      internalID: -3577498894379986066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Movement_3
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 217
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb16938ff56bc420800000000000000
+      internalID: 2651324953736387553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Movement_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 186
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594f9655698be7aa0800000000000000
+      internalID: -6161284284378647403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Movement_5
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 186
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92694b458ee6b090800000000000000
+      internalID: -8018959830225427814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Movement_6
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 186
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7900c1588c38e8a70800000000000000
+      internalID: 8831140816570024087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Movement_7
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 186
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff74d77bd8de7c00800000000000000
+      internalID: 900395412640530430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Movement_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 155
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a670dd60dd094000800000000000000
+      internalID: 20562862146614947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Movement_9
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 155
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22146b3cf8cba990800000000000000
+      internalID: -7373578979235327441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Movement_10
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 155
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f0d51658302f9f0800000000000000
+      internalID: -436282342502494445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Movement_11
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 155
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a548a2d08552fc7b0800000000000000
+      internalID: -5201897984481393574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Movement_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 124
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f517e360037a0360800000000000000
+      internalID: 7136643005035255285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Movement_13
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 124
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50baaa428f8179a00800000000000000
+      internalID: 763106115908709125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Movement_14
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 124
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3675da4aef977f6b0800000000000000
+      internalID: -5262603504967657629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Movement_15
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 124
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1298d22db94d770800000000000000
+      internalID: 8634697712585482661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Movement_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 93
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3695266e5950262a0800000000000000
+      internalID: -6745823150474110621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Movement_17
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 93
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad01de422bd5cea70800000000000000
+      internalID: 8857557586836000986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Movement_18
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 93
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce466e8f4dcd9ad0800000000000000
+      internalID: -2693771260522508607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Movement_19
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 93
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fec4152fcc219080800000000000000
+      internalID: -9182508897039757578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Movement_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 62
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a7889df05720b50800000000000000
+      internalID: 6557932718339422864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Movement_21
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 62
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb0f8f87745b03c0800000000000000
+      internalID: -4392324139083428914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Movement_22
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 62
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f397d0e19d3fb0d60800000000000000
+      internalID: 7857642088715614527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Movement_23
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 62
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda22d06947fdcd20800000000000000
+      internalID: 3300565996461501149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Movement_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f51dc22e09e9aa80800000000000000
+      internalID: -8454970578488715789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Movement_25
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 31
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9503cfd94fc567c80800000000000000
+      internalID: -8325364655455457191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Movement_26
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 31
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37618ab6f81252a40800000000000000
+      internalID: 5342713432815179379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Movement_27
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 31
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd28067c8ad749e60800000000000000
+      internalID: 7968131804578218717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Movement_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f92607a73e642040800000000000000
+      internalID: 4621940302893427187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Movement_29
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3d2c23bd01105f0800000000000000
+      internalID: -792333525804985438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Movement_30
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7d12ea123783830800000000000000
+      internalID: 4051114453312329689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Movement_31
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6536ab8bc1b8b2f00800000000000000
+      internalID: 1093120290042045270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9ee27bcb9ea020e41a176500adbf1f85
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
