@@ -6,72 +6,54 @@ public class PlayerAttack : MonoBehaviour
 {
     public Animator animator;
 
-    public Transform attackPoint;
-    public LayerMask enemyLayers;
 
-    public float attackRange = 5f;
-    public int attackDamage = 20;
+    public Transform spearSpawn;
+    public Rigidbody Spear;
 
-    bool ToggleWeapon = false;
+    public float speed = 10f;
 
-    public float attackRate = 2f;
-    float nextAttackTime = 0f;
+    bool SpearWeapon;
+    bool ThrowSpear = false;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        ToggleWeapon = false;
+        SpearWeapon = false;
+        ThrowSpear = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Time.time >= nextAttackTime)
-        {
-            if (Input.GetMouseButtonDown(0))
-            {
-                Attack();
-                nextAttackTime = Time.time + 1f / attackRate;
-            }
-        }
-        
-
-        WeaponToggle();
+        SpearToggle();
+        SpearThrow();
     }
-    void WeaponToggle()
+
+    void SpearToggle()
     {
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
-            ToggleWeapon = !ToggleWeapon;
-            animator.SetBool("Toggle_Weapon", ToggleWeapon);
+            SpearWeapon = !SpearWeapon;
+            animator.SetBool("hasSpear", SpearWeapon);
         }
     }
 
-    void Attack()
+    public void SpearThrow()
     {
-        if(ToggleWeapon)
+        if(SpearWeapon)
         {
-            Debug.Log("I Have Attacked!");
-            // Set attack animation
-
-            animator.SetTrigger("isAttacking");
-            // Detect enemies in range of attack
-            Collider[] hitEnemies = Physics.OverlapSphere(attackPoint.position, attackRange, enemyLayers);
-
-            // Damage them
-            foreach (Collider enemy in hitEnemies)
+            if (Input.GetKeyDown(KeyCode.F))
             {
-                enemy.GetComponent<Enemy>().TakeDamage(attackDamage);
+                ThrowSpear = !ThrowSpear;
+                animator.SetTrigger("throwSpear");
+
+                yeild WaitForSeconds(AnimationEvent);
+                Rigidbody spearInstance;
+                spearInstance = Instantiate(Spear, spearSpawn.position, spearSpawn.rotation) as Rigidbody;
+                spearInstance.velocity = spearSpawn.TransformDirection(Vector3.up * speed);
             }
         }
         
-    }
-
-    void OnDrawGizmosSelected()
-    {
-        if (attackPoint == null)
-            return;
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
 }
