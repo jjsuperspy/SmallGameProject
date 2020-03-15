@@ -48,7 +48,6 @@ public class PlayerAttack : MonoBehaviour
                 ThrowSpear = !ThrowSpear;
                 animator.SetTrigger("throwSpear");
 
-                yeild WaitForSeconds(AnimationEvent);
                 Rigidbody spearInstance;
                 spearInstance = Instantiate(Spear, spearSpawn.position, spearSpawn.rotation) as Rigidbody;
                 spearInstance.velocity = spearSpawn.TransformDirection(Vector3.up * speed);
